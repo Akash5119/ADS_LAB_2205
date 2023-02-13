@@ -27,7 +27,7 @@ void push(int value) {
 
 int pop() {
     if (top == NULL) {
-        printf("\nStack Underflow\n");
+        printf("\nStack Empty\n");
     } else {
         struct Node *temp = top;
         int temp_data = top->data;
